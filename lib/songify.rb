@@ -5,4 +5,5 @@ require 'pry-byebug'
 module PuppyBreeder
 end
 
-require_relative 'entities/song.rb'
+require_relative 'songify/entities/song.rb'
+require_relative 'songify/repositories/songs.rb'
