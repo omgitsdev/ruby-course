@@ -3,6 +3,8 @@ require 'rspec'
 require 'pry-byebug'
 require_relative 'songify/entities/song.rb'
 require_relative 'songify/repositories/songs.rb'
+require_relative 'songify/entities/genre.rb'
+require_relative 'songify/repositories/genres.rb'
 
 # we initialize the module here to use in our other files
 module Songify

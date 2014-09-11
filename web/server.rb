@@ -9,7 +9,6 @@ class Songify::Server < Sinatra::Application
   # INDEX
   get '/songs' do  
     @songs = Songify.songs_repo.get_songs
-
     erb :index 
   end
 

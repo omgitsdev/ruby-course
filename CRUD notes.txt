@@ -1,0 +1,16 @@
+CRUD = CREATE, READ, UPDATE, DELETE
+
+Songs:
+index: get '/songs'
+show: get '/songs/:id'
+new: get '/songs/new' #contains form which submits to post
+create: post '/songs'
+edit: get '/songs/:id/edit' #contains form which submits to update
+update: put '/songs/:id'
+destroy: delete '/songs/:id'
+
+Books:
+
+index: get '/books'
+show: get '/books/:id'
+etc
